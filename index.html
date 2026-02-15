@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jude Mike-Akwudi Portfolio</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav class="nav">
+  <div class="nav-brand">Jude</div>
+
+  <div class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <div class="nav-links" id="nav-links">
+    <a href="about.html">About</a>
+    <a href="#work">Work</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <video class="bg-video" autoplay muted loop playsinline>
+    <source src="Photos/Background Video.mp4" type="video/mp4">
+  </video>
+
+  <div class="hero-content fade">
+    <h1>Hi, I’m <span>Jude</span>.</h1>
+    <p>
+      Automotive entrepreneur · Data Analyst · Cybersecurity Enthusiast<br>
+      Founder of Miletus Motoren Werks & Torque Tribe Motorsports
+    </p>
+  </div>
+</header>
+
+<!-- ABOUT -->
+<section id="about" class="section fade">
+  <h2>About Me</h2>
+
+  <div class="profile-photo">
+    <img src="Photos/JUDE.jpg" alt="Jude Mike-Akwudi">
+  </div>
+
+  <div class="about-cards">
+    <div class="about-card" onclick="location.href='about.html#story'">
+      <h3>Story</h3>
+      <p>Read how it all started</p>
+    </div>
+    <div class="about-card" onclick="location.href='about.html#background'">
+      <h3>Background</h3>
+      <p>About Miletus Motoren Werks</p>
+    </div>
+    <div class="about-card" onclick="location.href='about.html#vision'">
+      <h3>Vision</h3>
+      <p>Where I’m headed</p>
+    </div>
+  </div>
+</section>
+
+<!-- WORK -->
+<section id="work" class="section fade">
+  <h2>Work / Projects</h2>
+
+  <div class="work-grid">
+    <div class="work-card">
+      <h3>Project A</h3>
+      <iframe src="https://www.youtube.com/embed/C-7s0nqaS7s" allowfullscreen></iframe>
+    </div>
+
+    <div class="work-card">
+      <h3>Project B</h3>
+      <iframe src="https://www.youtube.com/embed/RVxIQz4-IUo" allowfullscreen></iframe>
+    </div>
+
+    <div class="work-card">
+      <h3>Project C</h3>
+      <iframe src="https://www.youtube.com/embed/gmxLYRPwc9k" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="section fade">
+  <h2>Gallery</h2>
+
+  <div class="gallery">
+    <a href="gallery-cars.html" class="gallery-item">
+      <img src="Photos/Jude Profile Photo.jpeg" alt="Cars">
+      <span>Cars</span>
+    </a>
+
+    <a href="gallery-workshop.html" class="gallery-item">
+      <img src="Photos/TribeChief .jpeg" alt="Workshop">
+      <span>Workshop</span>
+    </a>
+
+    <a href="gallery-road.html" class="gallery-item">
+      <img src="Photos/Jude black & White .jpeg" alt="Road">
+      <span>Road</span>
+    </a>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section fade">
+  <h2>Contact</h2>
+
+  <div class="gallery small">
+    <a href="https://www.linkedin.com/in/jude-mike-akwudi" target="_blank" class="gallery-item">LinkedIn</a>
+    <a href="https://www.instagram.com/miletusceo" target="_blank" class="gallery-item">Instagram</a>
+    <a href="https://youtube.com/@miletusautoblog" target="_blank" class="gallery-item">YouTube</a>
+  </div>
+</section>
+
+<footer>© 2026 Jude Mike-Akwudi</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
